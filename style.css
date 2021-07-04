@@ -1,74 +1,116 @@
-.banner-section{
+body {
+    overflow-x: hidden;
+}
+
+.banner-section {
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
     height: auto;
 }
-.container{
+
+.container {
     display: flex;
 }
-.half{
+
+.half {
     width: 50%;
 }
-h1{
+
+h1 {
     font-size: 50px;
     color: black;
     margin-top: 30px;
 }
-.color-yellow{
+
+.text-orange {
     color: tomato;
     margin-top: 20px;
 }
+
 .half img {
-	margin-left: 20px;
-	width: 90%;
-	padding-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    padding-top: 10px;
 }
-.my-name{
+
+.my-name {
     margin-bottom: 40px;
 }
-h5{
-    padding-bottom:15px;
+
+h5 {
+    padding-bottom: 15px;
 }
-.half a{
+
+.half a {
     color: rgb(255, 253, 253);
     font-weight: bold;
     text-decoration: none;
-    background-image: linear-gradient(to right,#ffe259 , #ffa751);
+    background-image: linear-gradient(to right, #ffe259, #ffa751);
     padding: 8px 15px;
     border: 1px solid white;
     border-radius: 6px;
 }
-section{
+
+section {
     margin-bottom: 100px;
 }
+
 /* Dream Section */
 
-.dream-section{
+.dream-section {
     display: flex;
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 90px;
 }
-.dream{
+
+.dream {
     padding: 40px;
 }
-h1, h3{
+
+h1,
+h3 {
     margin-bottom: 30px;
 }
-img{
+
+img {
     width: 90%;
 }
+
 /* Experience Section */
 
-.experience-section{
+.experience-section {
     margin: auto;
     text-align: center;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
 }
-.experience-part{
+
+.experience-part {
     display: flex;
+
 }
-.experience-item{
-   border-left: 2px solid red;
-   width: 80%;
+
+.experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 5%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.experience-item h2 {
+    font-size: 40px;
+}
+.experience-item:nth-child(1){
+    border-left: 7px solid;
+    border-image:linear-gradient( #9796f0, #fbc7d4);
+    border-image-slice: 1;
+}
+.experience-item:nth-child(2){
+    border-left: 7px solid;
+    border-image:linear-gradient( #ec7f5e, #bdf365);
+    border-image-slice: 1;
 }
