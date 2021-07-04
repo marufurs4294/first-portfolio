@@ -1,0 +1,39 @@
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+}
+.half{
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 30px;
+}
+.color-yellow{
+    color: tomato;
+    margin-top: 20px;
+}
+.half img {
+	margin-left: 20px;
+	width: 90%;
+	padding-top: 10px;
+}
+.my-name{
+    margin-bottom: 40px;
+}
+h5{
+    padding-bottom:15px;
+}
+.half a{
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#ffe259 , #ffa751);
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
